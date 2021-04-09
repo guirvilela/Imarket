@@ -13,7 +13,7 @@ export const GlobalStyles = createGlobalStyle`
 
 
     --text-title: #434343;
-    --button-text: #737373;
+    --info-text: #737373;
     --sub-title: #CCCCCC;
     --home-title: #FEFEFE;
 

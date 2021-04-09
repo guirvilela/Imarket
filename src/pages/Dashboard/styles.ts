@@ -33,7 +33,7 @@ export const FieldText = styled.section`
     text-decoration: none;
     padding: 1rem 1.8rem;
     transition: border 0.2s;
-    color: var(--button-text);
+    color: var(--info-text);
     span {
       margin-left: 1rem;
     }
