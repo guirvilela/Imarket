@@ -1,12 +1,22 @@
 import React from 'react';
-import { Container, Footer, Header, MainPanel, Middle } from './styles';
+import {
+  Container,
+  Footer,
+  Header,
+  MainPanel,
+  Middle,
+  Promotions,
+} from './styles';
+
+import itsSale from '../../assets/itSale.png';
+import { Link } from 'react-router-dom';
 
 export const Home = () => {
   return (
     <Container>
       <MainPanel>
         <Header>
-          <button>Acessar meu Painel</button>
+          <Link to="/dashboard/home">Acessar meu Painel</Link>
         </Header>
         <Middle>
           <h1>
@@ -26,6 +36,19 @@ export const Home = () => {
           <h1>Em todas as etapas</h1>
         </div>
       </Footer>
+      <Promotions>
+        <div>
+          <h1>Promoções</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab ducimus
+            laboriosam consequuntur iusto ea placeat. Doloremque vel laudantium
+            similique et quod. Earum quisquam nemo alias a ut doloribus pariatur
+            assumenda!
+          </p>
+        </div>
+
+        <img src={itsSale} alt="SaleImage" />
+      </Promotions>
     </Container>
   );
 };

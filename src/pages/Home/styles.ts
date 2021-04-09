@@ -8,12 +8,12 @@ export const MainPanel = styled.div`
   background-image: url(${Background});
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 2rem 7.8rem 4rem;
+  padding: 3.5rem 7.8rem 4rem;
   width: 100%;
 `;
 export const Header = styled.header`
   text-align: end;
-  button {
+  a {
     border: 0;
     text-decoration: none;
     font-size: 1rem;
@@ -63,7 +63,7 @@ export const Middle = styled.section`
 export const Footer = styled.footer`
   background: var(--text-title);
   display: flex;
-  padding: 2rem 7.8rem;
+  padding: 2.5rem 7.8rem;
 
   div {
     & + div {
@@ -78,5 +78,23 @@ export const Footer = styled.footer`
       color: var(--blue-light);
       text-transform: uppercase;
     }
+  }
+`;
+
+export const Promotions = styled.section`
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 7rem;
+  padding: 7.8rem 7.8rem 4rem;
+
+  h1 {
+    color: var(--text-title);
+    font-size: 2rem;
+    margin-bottom: 4.8rem;
+    font-weight: 500;
+  }
+  p {
+    line-height: 1.5rem;
+    font-size: 1rem;
   }
 `;

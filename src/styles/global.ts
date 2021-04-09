@@ -9,15 +9,15 @@ export const GlobalStyles = createGlobalStyle`
 
     --blue-light: #75B09C;
 
-    --side-bar: #E5E5E5;
+    --side-bar: #F0F0F0;
 
 
     --text-title: #434343;
+    --button-text: #737373;
     --sub-title: #CCCCCC;
     --home-title: #FEFEFE;
 
-    --background: #F0F0F0;
-    --shape: #FFFFFF
+    --background: #FFFFFF
 
 }
 
